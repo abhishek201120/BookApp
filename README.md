@@ -41,37 +41,48 @@ dotenv
 
 ### 1. Clone the Repository
 
-```bash
+
+  ```
   git clone https://github.com/yourusername/your-repo-name.git
   cd your-repo-name
+```
 
 ### 2. Backend Setup (/backend)
-
-```bash
+```      
 cd backend
 npm install
+```
 
 Create a .env file:
+```
 PORT=5000
 DB_URI=mongodb://localhost:27017/your-db
 JWT_SECRET=your_jwt_secret
 JWT_EXPIRE=Token_expire_time
 NODE_ENV=development or Production
+```
 
 Run the server:
-bash
+```
 node server
+```
 
 ### 3. Frontend Setup (/frontend)
+```
 cd ../frontend
 npm install
 
-Create a .env file:
+```
 
+Create a .env file:
+```
 VITE_API_URL=http://localhost:your-port-of-backend/api
+```
 
 Run the frontend:
+```
 npm run dev
+```
 
 
 
