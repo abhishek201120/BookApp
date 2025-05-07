@@ -1,0 +1,18 @@
+# Node.js
+node_modules/
+
+# Environment files
+.env
+
+# Logs
+*.log
+
+# Temporary files
+npm-debug.log*
+
+# Database
+db/
+
+# IDEs
+.vscode/
+.idea/

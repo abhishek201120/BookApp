@@ -1,0 +1,16 @@
+.landing-page {
+    padding: 4rem 0;
+    min-height: calc(100vh - 56px);
+    display: flex;
+    align-items: center;
+  }
+  
+  .landing-page h1 {
+    font-weight: 800;
+    line-height: 1.2;
+  }
+  
+  .landing-page .lead {
+    font-size: 1.25rem;
+    color: #555;
+  }
